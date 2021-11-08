@@ -15,4 +15,9 @@ public class AnimailController {
 	public String login() {
 		return "login";
 	}
+	
+	@GetMapping("/joinForm")
+	public String joinForm() {
+		return "joinForm";
+	}
 }
